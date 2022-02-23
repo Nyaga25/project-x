@@ -33,7 +33,25 @@
      <div class="col-md-8">
          <div class="card">
              <div class="card-body" style="background-color:#3498DB;color:#ffffff;"></div>
-             <div class="card-body"></div>
+             <div class="card-body">
+                 <form class="form-group" action="func.php" method="post">
+                <label>First Name :</label>
+                <input type="text" name="fname" class="form-control"><br>
+                <label>Last Name :</label>
+                <input type="text" name="lname" class="form-control"><br>
+                <label>Email id :</label>
+                <input type="text" name="email" class="form-control"><br>
+                <label> Contact :</label>
+                <input type="text" name="contact" class="form-control"><br>
+                <label>Doctor Appointment :</label>
+                <select class="form-control">
+                    <option value="Dr Nick"></option>
+
+                </select><br>
+                  </form>
+ 
+
+             </div>
          </div>
      </div>
      <div class="col-md-1"></div>
